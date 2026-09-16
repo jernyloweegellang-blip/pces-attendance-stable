@@ -11,3 +11,7 @@ Registration, edit, archive, restore, permanent delete, search, grade/section fi
 5. For Vercel, add the same six environment variables and redeploy.
 
 Deleting a learner does not delete old attendance documents.
+
+
+## Bulk learner registration
+Open Learners, click DOWNLOAD CSV TEMPLATE, complete the file in Excel, save as CSV UTF-8, then click UPLOAD COMPLETED CSV. Each valid learner is saved directly to Firestore and appears on all authorized devices.
