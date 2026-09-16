@@ -1,0 +1,15 @@
+PCES CENTRAL DATABASE ATTENDANCE SYSTEM
+
+This version uses Firebase Authentication and Cloud Firestore.
+Learners and attendance records synchronize across authorized devices.
+
+Required setup:
+1. Create a Firebase project and Web App.
+2. Enable Authentication > Email/Password and create authorized users.
+3. Create Firestore Database.
+4. Copy .env.example to .env and add the six Firebase Web App values.
+5. Publish firestore.rules in Firebase Firestore Rules.
+6. Run npm install, npm run build, then deploy to Vercel.
+7. Add the same six VITE_FIREBASE_* values in Vercel Environment Variables.
+
+Do not upload .env to a public GitHub repository.
